@@ -1,0 +1,53 @@
+/***ETIQUETAS BASE***/
+section {
+  height: 500px;
+  background-color: yellow;
+  border: solid black 1px;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+/***ETIQUETAS POR CLASE***/
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+.hero-text {
+  margin-left: 40px;
+}
+/*# sourceMappingURL=Style.css.map */
